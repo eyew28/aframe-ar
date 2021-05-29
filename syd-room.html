@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Model Viewer Demo - Android</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  </head>  
+  <body>
+           <link rel="stylesheet" href="/style.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <hr>
+<div>
+   <h1>
+          Sydney Office 
+  </h1>
+  
+    <h3>
+      Lidar Scan
+    </h3>
+    <p>
+      <model-viewer ar src="https://eyew28.github.io/aframe-ar/model/SYD-Office.glb" 
+                    ios-src="https://eyew28.github.io/aframe-ar/model/SYD-Office.usdz" 
+                    auto-rotate camera-controls alt="Build" background-color="#455A64"></model-viewer>
+    </p>
+    <p>
+      (Tap cube to view in AR)
+    </p>
+  
+    </div>  
+  </body>
+</html>
